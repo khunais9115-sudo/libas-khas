@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libas-e-Khas | The Premium Fashion & Tailoring Hub</title>
+    <meta name="description" content="Libas-e-Khas: Where Every Stitch Tells a Story. Discover premium ladies couture, kids festive wear, elegant abayas, and tailoring essentials.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">Libas-e-Khas</a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#size-chart">Size Chart</a></li>
+                    <li><a href="#booking">Custom Booking</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content fade-in-up">
+            <h2 class="hero-subtitle">The Premium Fashion & Tailoring Hub</h2>
+            <h1 class="hero-title">Where Every Stitch Tells a Story</h1>
+            <p class="hero-text">Experience luxury craftsmanship and timeless elegance tailored exclusively for you.</p>
+            <a href="#collections" class="btn btn-primary">Discover the Art <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section id="collections" class="section">
+        <div class="container">
+            <div class="section-heading text-center fade-in-up">
+                <h2>Our Exclusive Collections</h2>
+                <div class="divider"></div>
+                <p>Masterpieces crafted with precision and passion</p>
+            </div>
+
+            <div class="collections-grid">
+                <!-- Ladies Couture -->
+                <div class="collection-card reveal-card">
+                    <div class="card-image-wrapper">
+                        <img src="images/ladies_couture.png" alt="Ladies Couture - Bridal and Formal">
+                        <div class="overlay">
+                            <h3>Ladies Couture</h3>
+                            <p>Premium Bridal and Formal ethnic wear, stitched to perfection.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Noor-e-Chashm (Kids) -->
+                <div class="collection-card reveal-card" style="transition-delay: 100ms;">
+                    <div class="card-image-wrapper">
+                        <img src="images/kids_frocks.png" alt="Noor-e-Chashm - Kids Wear">
+                        <div class="overlay">
+                            <h3>Noor-e-Chashm</h3>
+                            <p>Designer frocks and festive wear for little girls.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Abaya Grace -->
+                <div class="collection-card reveal-card" style="transition-delay: 200ms;">
+                    <div class="card-image-wrapper">
+                        <img id="img-abaya" src="images/abaya_grace.png" alt="Abaya Grace">
+                        <div class="overlay">
+                            <h3>Abaya Grace</h3>
+                            <p>Modern, minimalist, and elegant Abaya designs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="section bg-secondary">
+        <div class="container">
+            <div class="section-heading text-center fade-in-up">
+                <h2>Tailoring & Craft Shop</h2>
+                <div class="divider"></div>
+                <p>Equip yourself with premium tools and perfect patterns</p>
+            </div>
+
+            <div class="shop-grid">
+                <!-- Stitching Tool Kit -->
+                <div class="product-card fade-in-up">
+                    <div class="product-image">
+                        <img src="images/stitching_toolkit.png" alt="Premium Stitching Tool Kit">
+                    </div>
+                    <div class="product-info">
+                        <h4>Premium Stitching Tool Kit</h4>
+                        <p class="product-desc">Professional-grade tailoring scissors, matching thread sets, and sewing essentials.</p>
+                        <div class="product-price">$45.00</div>
+                        <button class="btn btn-gold btn-full">Add to Cart <i class="fas fa-shopping-bag"></i></button>
+                    </div>
+                </div>
+
+                <!-- Perfect Fit Patterns -->
+                <div class="product-card fade-in-up" style="transition-delay: 150ms;">
+                    <div class="product-image">
+                        <img id="img-patterns" src="images/fit_patterns.png" alt="Perfect Fit Patterns">
+                    </div>
+                    <div class="product-info">
+                        <h4>Perfect Fit Patterns</h4>
+                        <p class="product-desc">Ready-to-use professional paper patterns for shirts and trousers.</p>
+                        <div class="product-price">$20.00</div>
+                        <button class="btn btn-gold btn-full">Add to Cart <i class="fas fa-shopping-bag"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Size Chart Section -->
+    <section id="size-chart" class="section">
+        <div class="container">
+            <div class="section-heading text-center fade-in-up">
+                <h2>Standard Size Charts</h2>
+                <div class="divider"></div>
+                <p>Ensure the perfect fit with our comprehensive reference charts</p>
+            </div>
+
+            <div class="charts-wrapper fade-in-up">
+                <div class="chart-container">
+                    <h3><i class="fas fa-female"></i> Ladies Measurements</h3>
+                    <div class="table-responsive">
+                        <table class="size-table">
+                            <thead>
+                                <tr>
+                                    <th>Size</th>
+                                    <th>Bust (in)</th>
+                                    <th>Waist (in)</th>
+                                    <th>Hips (in)</th>
+                                    <th>Shoulder (in)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Small (S)</td>
+                                    <td>34</td>
+                                    <td>28</td>
+                                    <td>36</td>
+                                    <td>14</td>
+                                </tr>
+                                <tr>
+                                    <td>Medium (M)</td>
+                                    <td>36</td>
+                                    <td>30</td>
+                                    <td>38</td>
+                                    <td>14.5</td>
+                                </tr>
+                                <tr>
+                                    <td>Large (L)</td>
+                                    <td>38</td>
+                                    <td>32</td>
+                                    <td>40</td>
+                                    <td>15</td>
+                                </tr>
+                                <tr>
+                                    <td>X-Large (XL)</td>
+                                    <td>40</td>
+                                    <td>34</td>
+                                    <td>42</td>
+                                    <td>15.5</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="chart-container mt-4">
+                    <h3><i class="fas fa-child"></i> Kids Measurements (Age 2-13)</h3>
+                    <div class="table-responsive">
+                        <table class="size-table">
+                            <thead>
+                                <tr>
+                                    <th>Age</th>
+                                    <th>Chest (in)</th>
+                                    <th>Length (in)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2-3 Yrs</td>
+                                    <td>22</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr>
+                                    <td>4-5 Yrs</td>
+                                    <td>24</td>
+                                    <td>24</td>
+                                </tr>
+                                <tr>
+                                    <td>6-8 Yrs</td>
+                                    <td>26</td>
+                                    <td>28</td>
+                                </tr>
+                                <tr>
+                                    <td>9-11 Yrs</td>
+                                    <td>28</td>
+                                    <td>32</td>
+                                </tr>
+                                <tr>
+                                    <td>12-13 Yrs</td>
+                                    <td>30</td>
+                                    <td>36</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="booking" class="section bg-secondary">
+        <div class="container">
+            <div class="booking-layout">
+                <div class="booking-image fade-in-left">
+                    <img src="images/about_craft.png" alt="Craftsmanship" id="img-about">
+                </div>
+                <div class="booking-form-wrapper fade-in-right">
+                    <div class="section-heading">
+                        <h2>Custom Stitching Request</h2>
+                        <div class="divider left-aligned"></div>
+                        <p>Bring your imagination to reality. Book a custom tailoring slot today.</p>
+                    </div>
+                    <form id="stitchingForm" class="elegant-form">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required placeholder="Enter your email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="category">Garment Category</label>
+                            <select id="category" required>
+                                <option value="" disabled selected>Select a category</option>
+                                <option value="ladies_formal">Ladies Formal/Bridal</option>
+                                <option value="kids_wear">Noor-e-Chashm (Kids)</option>
+                                <option value="abaya">Abaya Grace</option>
+                                <option value="other">Other/Custom</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="details">Design Instructions</label>
+                            <textarea id="details" rows="4" placeholder="Describe the fabrics, style, and requirements..."></textarea>
+                        </div>
+                        <div class="form-group file-upload-wrapper">
+                            <label for="designUpload" class="file-upload-label">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <span>Upload Design / Sketch</span>
+                            </label>
+                            <input type="file" id="designUpload" accept="image/*">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full mt-2">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text fade-in-up">
+                    <h2><span class="gold-text">10 Years</span> of Master Craftsmanship</h2>
+                    <p class="lead">Libas-e-Khas represents a decade of dedication to the sartorial arts. We blend traditional techniques with modern aesthetics to create garments that are truly distinctive.</p>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-gem"></i>
+                            <div>
+                                <h4>Premium Quality</h4>
+                                <p>We source only the finest fabrics and materials, ensuring every garment feels as luxurious as it looks.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-cut"></i>
+                            <div>
+                                <h4>Expert Tailoring</h4>
+                                <p>Our master tailors possess generations of knowledge, guaranteeing an immaculate fit and flawless finish.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Timely Delivery</h4>
+                                <p>Your time is valuable. We pride ourselves on meeting our delivery promises without compromising on quality.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual fade-in-up" style="transition-delay: 200ms;">
+                    <!-- Floating visual representation -->
+                    <div class="milestone-card floating">
+                        <div class="milestone-number">10K+</div>
+                        <div class="milestone-text">Garments Tailored</div>
+                    </div>
+                    <div class="milestone-card floating" style="animation-delay: 2s; top: auto; bottom: 10%; right: 10%; left: auto;">
+                        <div class="milestone-number">5K+</div>
+                        <div class="milestone-text">Happy Clients</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <h2 class="footer-logo">Libas-e-Khas</h2>
+            <p>The Premium Fashion & Tailoring Hub</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Libas-e-Khas. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/920000000000" target="_blank" class="whatsapp-float pulse" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
